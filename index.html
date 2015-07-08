@@ -50,8 +50,12 @@
 			<div class="row">
 					<div class="col s12">
 						<img class="internhacks-main-logo" src="assets/img/internhacks-white-main-logo.png">
-						<h3 id="event-date-text">Saturday July 25th, 2015</h3>
-						<a class="waves-effect waves-light btn-large z-depth-2" id="register-button"><i class="material-icons left"></i>Apply</a>
+						<div class="event-info-container">
+							<h4 id="event-date-text">Saturday July 25th, 2015</h4>
+							<h5>9am-6pm</h5>
+							<h6>General Assembly, 225 Bush Street San Francisco</h6>
+						</div>
+						<a class="waves-effect waves-light btn-large z-depth-3" id="apply-button"><i class="material-icons left"></i>Apply</a>
 					</div>
 				</div><!-- /row -->
 			</div><!-- /sf-background-container -->
@@ -59,27 +63,36 @@
 
 <!-- SERVICE LOGOS-->
 	 <div id="service">
-				<div class="row service-content"> <!-- was col s4-->
- 					<i class="fa fa-code"></i>
- 					<h4>Hack</h4>
- 					<p class="left-align content-text"><b>InternHacks</b> is a hackathon focused solely on personal website development.
-					No teams, no worries. Just come and work on that portfolio you haven't updated in a while.</p>
+				<div class="row service-content"> <!-- was col s4-->					
+					<div class="col s12 l6">
+ 					<h1 id="content-title">{Hack}</h1>
+ 					<p class="left-align content-text"><b>InternHacks</b> is a hackathon focused on portfolio website development.
+					<br>No teams, no worries. 
+					<br>Join us for a day-long hackathon founded by interns, for interns, hosted at the beautiful General Assembly office in San Francisco's financial district.
+					</div>
+					<div class="col s12 l6">
+					<img class="z-depth-2" id="ga-office-hack" src="assets/img/ga-office-temp.jpg">
+					</div>
 				</div>
+				
 				<div class="row right-align service-content">
-						<i class="fa fa-code-fork"></i>
-						<h4>Learn</h4>
-						<p class="content-text">New to web development? Want to learn a new web framework, how to host a site, or about UI/UX Design?
-						<br><br>Throughout the day, <b>InternHacks</b> will be holding workshops on various web dev topics, so you can brush up on the skills needed to make a great personal website.</p>
+					<div class="col s12">
+					<h1 id="content-title">{Learn}</h1>
+					<p class="content-text">New to web development? Want to learn the basics of HTML/CSS, how to host a site, a new web framework, or how to build a site with Weebly?
+					<br>Throughout the day, <b>InternHacks</b> will be holding workshops on various web dev topics, so you can brush up on the skills needed to make a great personal website.</p>
+					</div>
 				</div>
+				
 				<div class="row service-content">
-						<i class="fa fa-users"></i>
-						<h4>Network</h4>
-						<p class="left-align content-text"><b>InternHacks</b> is open to tech interns from throughout the Bay Area, and is a great way to get to know interns from other companies and universities.</p>
+					<div class="col s12">
+					<h1 id="content-title">{Network}</h1>
+					<p class="left-align content-text"><b>InternHacks</b> is open to tech interns from throughout the Bay Area, and is a great way to get to know interns from other companies and universities.</p>
+					</div>
 				</div>	 		
 	 </div><!--/service -->
 	
 	<div class="schedule">
-	<h2 class="centered">Schedule</h2>
+	<h1 class="centered">{Schedule}</h2>
 		<div class="row">
 			<div class="col s12 l3">
 				<div class="card">
@@ -108,10 +121,8 @@
 			</div>
 			<div class="col s12 l3">
 				<div class="card">
-				<div class="card-content">
-					  <span class="card-title">Namecheap Workshop</span>
-					  <p><b>Instructor:</b> Person, Namecheap</p>
-					  <br><p>This workshop will teach you blahblahlblahblahblah!</p>
+					<div class="card-content">
+					  <span class="card-title">How to Host a Site with Namecheap</span>
 					</div>
 					<div class="card-action">
 					  <a>11am</a>
@@ -136,8 +147,8 @@
 				<div class="card">
 				<div class="card-content">
 				  <span class="card-title">Weebly Workshop</span>
-				  <p><b>Instructor:</b> Person, Weebly</p>
-				  <br><p>This workshop will teach you blahblahlblahblahblah!</p>
+				  <p><b>Instructor:</b>Weebly representative</p>
+				  <br><p>This workshop will teach you how to quickly build a site with Weebly and how to insert your own custom HTML/CSS</p>
 				</div>
 				<div class="card-action">
 				  <a>1pm</a>
@@ -163,7 +174,7 @@
 	</div>
 
 	<div class="sponsors container centered">
-		<h2>Our Sponsors</h2>
+		<h1>{Sponsors}</h1>
 		<div class="row">
 			<div class="col s4">
 				<img src="assets/img/weebly-logo.jpg" class="img-responsive" id="weebly-logo">
@@ -245,12 +256,15 @@
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-	<script>
-	$( document ).ready(function(){
-		$(".button-collapse").sideNav();
-	});
-	</script>
 	<script src="assets/js/custom.js"></script>
   	<script src="assets/js/navbar.js"></script>
+		<script>
+	$( document ).ready(function(){
+		$(".button-collapse").sideNav();
+		if(isMobile()){
+			fixHackSectionForMobile();
+		}
+	});
+	</script>
   </body>
 </html>

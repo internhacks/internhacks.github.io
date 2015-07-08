@@ -15,8 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	/* font-weight: 700; */
 }
 
 p { 
@@ -110,7 +109,7 @@ ul.right.hide-on-med-and-down > li:hover {
 }
 
 p.content-text {
-	font-size: 150%;
+	font-size: 110%;
 }
 
 .dropdown-menu {
@@ -123,8 +122,9 @@ p.content-text {
 	font-size: 12px;
 }
 
-.error {
-	border-color: red;
+.event-info-container h1, h2, h3, h4, h5, h6{
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 5px;
 }
 
 .fa {
@@ -189,16 +189,22 @@ p.content-text {
 	margin-left: 0px;
 	margin-right: 0px;
 	width: 100%}
-
+}
 	.schedule > h3 {
 		padding-top: 30px;
 	}
 
-	.service-content{
-		min-height: 400px;
-		width: 70%;
-		
-	}
+.sponsors {
+	padding-top: 40px;
+}
+
+
+#content-title{
+	display: inline-block;
+	color: #03a9f4;
+	margin-top: 0px;
+}
+
 
 	.sponsors {
 		padding-top: 40px;
@@ -213,10 +219,18 @@ p.content-text {
 		color: white;
 	}
 
-	#event-date-text  {
-		margin-top: 0px;
-		padding-bottom: 5px;
-	}
+#event-date-text  {
+	margin-top: 0px;
+}
+
+#apply-button{
+  background-color: #03a9f4;
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  width: 30%;
+}
 
 	#register-button{
 		background-color: #03a9f4;
@@ -255,14 +269,10 @@ p.content-text {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-	}
-
-	#headerwrap h3, h5 {
-		color: white;
-		font-weight: 400;
-		padding-top: 0px;
-	}
-
+	
+	font-weight: 400;
+	padding-top: 0px;
+}
 	#headerwrap h1 {
 		color: white;
 		margin-bottom: 25px;
@@ -281,22 +291,18 @@ p.content-text {
 		height: 100px;
 	}
 
-	/* Services Wrap */
-	#service {
-		margin-top: 20px;
-		margin-bottom: 80px;
-	}
+/* Services Wrap */
+#service {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
 
-	#register-text{
-		color: white;
-		padding-right: 5px;
-	}
+#service i {
+	font-size: 50px;
+}
 
-	#service i {
-		font-size: 60px;
-		padding: 15px;
-	}
 
 	#weebly-logo {
 		height: 150px;
 	}
+

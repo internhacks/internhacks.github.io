@@ -33,6 +33,10 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > bu
 	padding-left: 15px;
  }
  
+ #apply-button{
+	width: 60%;
+ }
+ 
  #footer-links-container {
  
  }
@@ -44,10 +48,6 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > bu
  
  #internhacks-footer-logo {
 	margin-left: 0px;
- }
- 
- #register-button-container {
-	margin-top: 20px;
  }
  
  #service {
