@@ -190,9 +190,9 @@ p.content-text {
 	margin-right: 0px;
 	width: 100%}
 }
-	.schedule > h3 {
-		padding-top: 30px;
-	}
+.schedule > h3 {
+	padding-top: 30px;
+}
 
 .sponsors {
 	padding-top: 40px;
@@ -206,90 +206,90 @@ p.content-text {
 }
 
 
-	.sponsors {
-		padding-top: 40px;
-	}
+.sponsors {
+	padding-top: 40px;
+}
 
-	#contact-us-modal {
-		max-height: 80%;
-	}
+#contact-us-modal {
+	max-height: 80%;
+}
 
-	#contact-us-submit-button{
-		background-color: #03a9f4; 
-		color: white;
-	}
+#contact-us-submit-button{
+	background-color: #03a9f4; 
+	color: white;
+}
 
 #event-date-text  {
 	margin-top: 0px;
 }
 
 #apply-button{
-  background-color: #03a9f4;
-  color: white;
-  font-weight: 400;
-  margin-top: 20px;
-  padding-bottom: 30px;
-  width: 30%;
+	background-color: #03a9f4;
+	color: white;
+	font-weight: 400;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	width: 30%;
 }
 
-	#register-button{
-		background-color: #03a9f4;
-		color: white;
-		padding-bottom: 30px;
-	}
+#register-button{
+	background-color: #03a9f4;
+	color: white;
+	padding-bottom: 30px;
+}
 
-	#sf-background-container{
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#03a9f4+0,ffffff+100&amp;0.63+0,1+100 */
-		background: -moz-linear-gradient(top,  rgba(3,169,244,0.63) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(3,169,244,0.63)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a103a9f4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+#sf-background-container{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#03a9f4+0,ffffff+100&amp;0.63+0,1+100 */
+	background: -moz-linear-gradient(top,  rgba(3,169,244,0.63) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(3,169,244,0.63)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(3,169,244,0.63) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a103a9f4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 
-		height: 100%;
-	}
+	height: 100%;
+}
 
-	#headerwrap {
-		padding-bottom: 0px;
-		text-align: center;
-		
-		background: url(../img/sf-backdrop.jpg);
-		background-position: center center;
-		height: 500px;
-		width: 100%;
-		
-		-webkit-background-size: 100%;
-		-moz-background-size: 100%;
-		-o-background-size: 100%;
-		background-size: 100%;
+#headerwrap {
+	padding-bottom: 0px;
+	text-align: center;
+	
+	background: url(../img/sf-backdrop.jpg);
+	background-position: center center;
+	height: 500px;
+	width: 100%;
+	
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	
 	font-weight: 400;
 	padding-top: 0px;
 }
-	#headerwrap h1 {
-		color: white;
-		margin-bottom: 25px;
-	}
+#headerwrap h1 {
+	color: white;
+	margin-bottom: 25px;
+}
 
-	#headerwrap .img-responsive {
-		margin: 0 auto;
-	}
+#headerwrap .img-responsive {
+	margin: 0 auto;
+}
 
-	#internhacks-footer-logo{
-		padding-left: 30px;
-		width: auto;
-	}
+#internhacks-footer-logo{
+	padding-left: 30px;
+	width: auto;
+}
 
-	#namecheap-logo {
-		height: 100px;
-	}
+#namecheap-logo {
+	height: 100px;
+}
 
 /* Services Wrap */
 #service {
@@ -302,7 +302,7 @@ p.content-text {
 }
 
 
-	#weebly-logo {
-		height: 150px;
-	}
+#weebly-logo {
+	height: 150px;
+}
 
