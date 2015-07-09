@@ -30,6 +30,29 @@ body {
 	color: rgba(32, 43, 62, 1) !important;
 }
 
+.event-description {
+	float: right !important;
+}
+
+.event {
+	background: url(../img/ga-office.jpeg);
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.event-gradient-wrapper{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0+0,1+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
 .indicator {
 	background-color: #03A9F4 !important;
 }
@@ -55,6 +78,7 @@ body {
 
 .page-footer {
 	background-color: #384452 !important;
+	text-align: left;
 }
 
 #internhacks-footer-logo{
@@ -79,39 +103,58 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e2fb3ee', e
 	margin-bottom: 0px;
 }
 
-.card.col.s12.schedule-tabs.hide-on-med-and-down{
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-top: 10%;
-	margin-bottom: 10%;
+.card.col.s12.schedule-tabs.hide-on-med-and-down {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 .sponsors {
 	padding-top: 2%;
 	margin-bottom: 5%;
+	width: 97%;
+  	margin-left: auto;
+ 	margin-right: auto;
 }
 
 .schedule {
-	margin-bottom: 10%;
-	width: 70%;
+	width: 97%;
 }
 
 .schedule-item{
-	min-height: 150px;
+
 	background-color: rgba(240, 248, 255, 0.49);
 	text-align: left;
   	padding-left: 10% !important;
 }
 
+.schedule-item > p {
+	max-width: 50%;
+	display: inline-block;
+}
+
+.schedule-item > span {
+	display: block;
+}
+
+.schedule-item > img {
+	float: right;
+	height: 100px;
+}
+
+
+
 .tabs {
 	font-size: 200%;
 	background-color: aliceblue;
+	list-style-position:inside;
+    
 }
 
 
 .tabs .tab a {
 	color: #03A9F4 !important;
 }
+
 
 #apply-button{
 	background-color: rgba(240, 248, 255, 0.49);
@@ -123,8 +166,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e2fb3ee', e
 	width: 30%;
 }
 
+#ga-office-img{
+	width: 100%
+}
 
-#event-description {
+
+#event-description-container {
 	width: 90%;
 	padding-bottom: 10%; 
 }
@@ -147,7 +194,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e2fb3ee', e
 	text-shadow: 1px 1px 1px whitesmoke;
 }
 
-#whyapply{
-	font-size: 400%;
-	font-weight: 400;
+#weebly-logo {
+	height: 100px;
 }
