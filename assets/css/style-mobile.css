@@ -1,49 +1,71 @@
 
-	@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 600px) {
 
-	#apply-button{
-	width: 60%;
+#apply-button{
+width: 60%;
 }
-	#event-description > div > h4 {
-  	font-size: 150%;
-	}
-
-	#event-description > div > h5 {
-  	font-size: 110%;
-	}
-
-	.internhacks-main-logo{
-		width: 100%
-	}
-
-	.collapsible-body{
-		background-color: whitesmoke;
-	}
-
-	.collapse-instructor {
-		float: left;
-  		font-size: 90%;
-	}
-
-	.collapse-time, .collapse-title {
-		display: inline-block;
-	}
-
-	.collapse-time {
-		float: left;
-		font-weight: bold;
-	}
-
-
-	.internhacks-wrapper {
-	padding-top: 20%;
-	padding-bottom: 20%;
+#event-description > div > h4 {
+	font-size: 150%;
 }
 
-	.schedule-mobile-title {
-		margin-bottom: 0px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		background-color: whitesmoke;
-	}
+#event-description > div > h5 {
+	font-size: 110%;
+}
+
+.internhacks-main-logo{
+	width: 100%
+}
+
+.collapsible{
+	margin-top: -10%;
+}
+
+#ga-office-img, .sponsors {
+	margin-top: -5%;
+}
+
+.collapsible-body{
+	background-color: whitesmoke;
+}
+
+.collapse-instructor {
+	float: left;
+		font-size: 90%;
+}
+
+.collapse-time, .collapse-title {
+	display: inline-block;
+}
+
+.collapse-time {
+	float: left;
+	font-weight: bold;
+}
+
+
+.internhacks-wrapper {
+padding-top: 20%;
+padding-bottom: 20%;
+}
+
+div > .row.sponsors {
+width: 100%;
+height: 30%;
+padding-top: 5%;
+}
+
+footer {
+	display: none;
+}
+
+body > div.page-wrapper > div.card.sponsors.hoverable > h4 {
+	font-size: 100%;
+}
+
+.schedule-mobile-title {
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background-color: whitesmoke;
+}
 }

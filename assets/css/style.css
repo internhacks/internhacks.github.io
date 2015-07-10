@@ -22,68 +22,52 @@ body {
 	text-align: center;
 }
 
-.card {
-	opacity: 0.9;
-}
-
 .card-title {
 	color: rgba(32, 43, 62, 1) !important;
 }
 
-.event-description {
-	float: right !important;
-}
-
 .event {
-	background: url(../img/ga-office.jpeg);
-	width: 97%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom: 0px;
 }
 
-.event-gradient-wrapper{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0+0,1+100 */
-background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-
+.ga-office-img{
+z-index: -1;
+max-height: 400px;
 }
 
 .indicator {
-	background-color: #03A9F4 !important;
+background-color: #03A9F4 !important;
 }
 
 .internhacks-main-logo{
-	margin-left: auto;
-	margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 .internhacks-wrapper {
-	padding-top: 10%;
-	padding-bottom: 10%;
+padding-top: 10%;
+padding-bottom: 10%;
+height: 100vh;
 }
 
 .logo {
-	max-height: 150px;
+max-height: 150px;
 }
 
 
 .footer-container{
-	width: 100%;
+width: 100%;
 }
 
-.page-footer {
-	background-color: #384452 !important;
-	text-align: left;
+footer.page-footer {
+background-color: #384452 !important;
+margin-top: 0px;
+text-align: left;
 }
 
 #internhacks-footer-logo{
-	padding-left: 30px;
-	width: auto;
+padding-left: 30px;
+width: auto;
 }
 
 .page-wrapper{
@@ -100,100 +84,136 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e2fb3ee', e
 }
 
 .row {
-	margin-bottom: 0px;
+margin-bottom: 0px;
+}
+
+div > .row.sponsors {
+width: 70%;
+padding-bottom: 20px;
 }
 
 .card.col.s12.schedule-tabs.hide-on-med-and-down {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+margin-top: -2%;
+  margin-bottom: 0;
 }
 
-.sponsors {
-	padding-top: 2%;
-	margin-bottom: 5%;
+.faq-wrapper {
 	width: 97%;
-  	margin-left: auto;
- 	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.schedule {
-	width: 97%;
+.parallax{
+	z-index: 0;
+}
+
+.row {
+width: 100%;
 }
 
 .schedule-item{
 
-	background-color: rgba(240, 248, 255, 0.49);
-	text-align: left;
-  	padding-left: 10% !important;
+background-color: rgba(240, 248, 255, 0.49);
+text-align: left;
+	padding-left: 10% !important;
+
+height: 200px;
+}
+
+.schedule {
+
 }
 
 .schedule-item > p {
-	max-width: 50%;
-	display: inline-block;
+max-width: 50%;
+display: inline-block;
 }
 
 .schedule-item > span {
-	display: block;
+display: block;
 }
 
 .schedule-item > img {
-	float: right;
-	height: 100px;
+float: right;
+height: 100px;
+}
+
+.sponsors {
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
 
-
 .tabs {
-	font-size: 200%;
-	background-color: aliceblue;
-	list-style-position:inside;
-    
+font-size: 200%;
+background-color: aliceblue;
+list-style-position:inside;
+
 }
 
 
 .tabs .tab a {
-	color: #03A9F4 !important;
+color: #03A9F4 !important;
 }
 
+h5, h4{
+font-weight: 200;
+}
+
+.question {
+font-weight: 500;
+}
+
+div.question-item {
+	padding-bottom: 20px !important;
+}
+
+h6 {
+	font-weight: 200;
+}
 
 #apply-button{
-	background-color: rgba(240, 248, 255, 0.49);
-	font-size: 150%;
-	font-weight: 500;
-	color: rgba(32, 43, 62, 1);
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 30%;
+background-color: rgba(240, 248, 255, 0.49);
+font-size: 150%;
+font-weight: 500;
+color: rgba(32, 43, 62, 1);
+margin-top: 20px;
+margin-bottom: 20px;
+width: 30%;
 }
 
 #ga-office-img{
-	width: 100%
+width: 100% !important;
+opacity: .9 !important;
 }
+
 
 
 #event-description-container {
-	width: 90%;
-	padding-bottom: 10%; 
+width: 90%;
+padding-bottom: 10%; 
 }
 
 #event-info {
-	color: white;
-	padding-bottom: 20px;
+color: white;
+padding-bottom: 20px;
 }
 
-	#event-description > div > h2, h3 {
-  	text-shadow: 1px 1px 1px whitesmoke;
-	}
-
-	.sponsors > h2, h3 {
-		text-shadow: 1px 1px 1px whitesmoke;
-	}
-
-#learn {
-	color: white !important;
+#event-description > div > h2, h3 {
 	text-shadow: 1px 1px 1px whitesmoke;
 }
 
+.sponsors > h2, h3 {
+	text-shadow: 1px 1px 1px whitesmoke;
+}
+
+#learn {
+color: white !important;
+text-shadow: 1px 1px 1px whitesmoke;
+}
+
 #weebly-logo {
-	height: 100px;
+height: 100px;
 }

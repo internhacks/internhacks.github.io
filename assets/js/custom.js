@@ -28,8 +28,8 @@ function initializeSchedule(){
 		{time:"12-1", id:"w4", title:"LUNCH", companyName:"", instructor:"", text:""},
 		{time:"1-2", id:"w5", title:"Weebly Workshop", companyName:"Weebly", instructor:"", img:"<img src='assets/img/weebly-logo.gif'>", text:"Join us for this workshop presented by an engineer from <a href='http://www.weebly.com/'>Weebly</a>! <br>More info coming soon!"},
 		{time:"2-3", id:"w6", title:"Kik Workshop", companyName:"Kik", instructor:"instructor", img:"<img src='assets/img/kik-logo.png'>", text:"Join us for this workshop presented by an engineer from <a href='http://www.kik.com/'>Kik</a>! <br>More info coming soon!"},
-		{time:"3-4", id:"w7", title:"AngularJS Workshop", companyName:"<a href='http://warehousing.theshotput.com/'>The Shotput</a>", instructor:"James Steinberg", img:"<img src='assets/img/AngularJS.png'>", text:"Ever wanted to learn AngularJS? This framework will give your portfolio a beautiful look and feel."},
-		{time:"4-5", id:"w8", title:"Upcoming Dev tools", companyName:"<a href='http://joelcox.io/'>joelcox.io</a>", instructor:"Joel Cox", img:"<img src='assets/img/favicon-@2x.png'>", text:"More info coming soon!"},
+		{time:"3-4", id:"w7", title:"AngularJS Workshop", companyName:"<a href='http://warehousing.theshotput.com/'>The Shotput</a>", instructor:"James Steinberg", img:"<img src='assets/img/angularjs.png'>", text:"Ever wanted to learn AngularJS? This framework will give your portfolio a beautiful look and feel."},
+		{time:"4-5", id:"w8", title:"Upcoming Dev tools", companyName:"<a href='http://joelcox.io/'>joelcox.io</a>", instructor:"Joel Cox", img:"", text:"More info coming soon!"},
 		{time:"5pm", id:"w9", title:"Submit your hack!", companyName:"", instructor:"", img:"<img src='assets/img/internhacks-blue.png'>", text:"That's right! While InternHacks isn't a traditional hackathon, we decided to reward those who put in a lot of time and effort with <br><b>BEST PORTFOLIO WEBSITE</b></br> determined by our expert judging panel."},
 	];
 }
