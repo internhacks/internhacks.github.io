@@ -18,7 +18,7 @@ body {
 
 	background-repeat: no-repeat;
 
-	color: rgba(32, 43, 62, 1);
+	color: #03A9F4;
 	text-align: center;
 }
 
@@ -100,13 +100,14 @@ margin-top: -2%;
 }
 
 .faq-wrapper {
-	width: 97%;
+ width: 97%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .parallax{
 	z-index: 0;
+opacity: .75;
 }
 
 .row {
@@ -117,7 +118,7 @@ width: 100%;
 
 background-color: rgba(240, 248, 255, 0.49);
 text-align: left;
-	padding-left: 10% !important;
+padding-left: 10% !important;
 
 height: 200px;
 }
