@@ -5,6 +5,12 @@ body {
 	
 }
 
+@media only screen and (min-device-width: 480px){
+	#register-button {
+		width: 100%;
+	}
+}
+
 #register-button{
 width: 60%;
 }
@@ -25,7 +31,7 @@ width: 60%;
 }
 
 #ga-office-img, .sponsors {
-	margin-top: -5%;
+
 }
 
 .collapsible-body{
