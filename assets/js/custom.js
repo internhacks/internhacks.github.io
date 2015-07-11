@@ -24,7 +24,7 @@ function initializeSchedule(){
 	schedule = [
 		{time:"9-10", id:"w1", title:"Start Hacking!", companyName:"", img:"<img src='assets/img/internhacks-blue.png'>", instructor:"", text:""},
 		{time:"10-11", id:"w2", title:"Intro to HTML/CSS", companyName:"Google", img:"<img src='assets/img/htmlcss.png'>", instructor:"Manu Cornet", text:"This workshop will get you up to speed with the basics of HTML/CSS, to get you ready for a successful day of hacking!"},
-		{time:"11-12", id:"w3", title:"How Host a Site with Namecheap", companyName:"Namecheap", img:"<img src='assets/img/namecheap-logo.png'>", instructor:"", text:"We will be bringing you an expert from Namecheap to teach you how to get your beautiful portfolio site hosted!"},
+		{time:"11-12", id:"w3", title:"How to Host a Site with Namecheap", companyName:"Namecheap", img:"<img src='assets/img/namecheap-logo.png'>", instructor:"", text:"We will be bringing you an expert from Namecheap to teach you how to get your beautiful portfolio site hosted!"},
 		{time:"12-1", id:"w4", title:"LUNCH", companyName:"", instructor:"", text:""},
 		{time:"1-2", id:"w5", title:"Weebly Workshop", companyName:"Weebly", instructor:"", img:"<img src='assets/img/weebly-logo.gif'>", text:"Join us for this workshop presented by an engineer from <a href='http://www.weebly.com/'>Weebly</a>! <br>More info coming soon!"},
 		{time:"2-3", id:"w6", title:"Kik Workshop", companyName:"Kik", instructor:"", img:"<img src='assets/img/kik-logo.png'>", text:"Join us for this workshop presented by an engineer from <a href='http://www.kik.com/'>Kik</a>! <br>More info coming soon!"},
