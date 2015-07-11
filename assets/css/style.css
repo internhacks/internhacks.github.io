@@ -190,7 +190,9 @@ width: 100% !important;
 opacity: .9 !important;
 }
 
-
+#ga-link {
+	color: white;
+}
 
 #event-description-container {
 width: 90%;
