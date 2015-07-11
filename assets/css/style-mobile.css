@@ -1,7 +1,11 @@
 
 @media only screen and (max-device-width: 600px) {
 
-#apply-button{
+body {
+	background: url(../img/sf-backdrop-small.jpeg);
+}
+
+#register-button{
 width: 60%;
 }
 #event-description > div > h4 {

@@ -160,7 +160,7 @@ color: #03A9F4 !important;
 }
 
 h5, h4{
-font-weight: 200;
+font-weight: 250;
 }
 
 .question {
@@ -171,11 +171,7 @@ div.question-item {
 	padding-bottom: 20px !important;
 }
 
-h6 {
-	font-weight: 200;
-}
-
-#apply-button{
+#register-button{
 background-color: rgba(240, 248, 255, 0.49);
 font-size: 150%;
 font-weight: 500;
