@@ -141,6 +141,11 @@ float: right;
 height: 100px;
 }
 
+.schedule-tabs {
+margin-top: -5%;
+margin-bottom: -5%;
+}
+
 .sponsors {
 margin-bottom: 0px;
 margin-top: 0px;
