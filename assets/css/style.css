@@ -30,6 +30,10 @@ body {
 	margin-bottom: 0px;
 }
 
+.collapse-time{
+	float: left;
+}
+
 .ga-office-img{
 z-index: -1;
 max-height: 400px;
@@ -42,6 +46,7 @@ background-color: #03A9F4 !important;
 .internhacks-main-logo{
 margin-left: auto;
 margin-right: auto;
+width: 100%;
 }
 
 .internhacks-wrapper {

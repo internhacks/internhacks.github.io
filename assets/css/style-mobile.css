@@ -1,5 +1,5 @@
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 600px) {
 
 body {
 	
@@ -20,8 +20,8 @@ width: 60%;
 	width: 70%
 }
 
-.collapsible{
-
+.collapse-time{
+float: left;
 }
 
 #ga-office-img, .sponsors {

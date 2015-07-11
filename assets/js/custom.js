@@ -5,7 +5,7 @@ function OpenInNewTab(url) {
 }
 
 function isMobile() {
- if(window.innerWidth <= 1000) {
+ if(window.innerWidth <= 600) {
    return true;
  } else {
    return false;
