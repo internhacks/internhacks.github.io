@@ -213,9 +213,9 @@ div.question-item p {
 background-color: rgba(11, 185, 217, 0.2);
 font-size: 150%;
 font-weight: 500;
-margin-top: 20px;
-margin-bottom: 20px;
+margin: 20px auto;
 width: 30%;
+display: block;
 }
 
 #register-button:hover{
@@ -233,7 +233,7 @@ opacity: .9 !important;
 
 #event-description-container {
 width: 90%;
-padding-bottom: 10%; 
+padding-bottom: 10%;
 }
 
 #event-info {
