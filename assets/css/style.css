@@ -97,8 +97,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e2fb3ee', e
 }
 
 div > .row.sponsors {
-width: 70%;
-padding-bottom: 20px;
+	padding-bottom: 20px;
+	width: 90%;
 }
 
 .card.col.s12.schedule-tabs.hide-on-med-and-down {
@@ -173,6 +173,7 @@ margin: 16px 0;
 .sponsors {
 margin-bottom: 0px;
 margin-top: 0px;
+display: block;
 }
 
 

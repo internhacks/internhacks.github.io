@@ -114,4 +114,4 @@ $(window).resize(function() {
 		initParallax();
 	}
 	window.lastWidth = window.innerWidth;
-})
+});
